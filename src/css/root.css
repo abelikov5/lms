@@ -1,0 +1,14 @@
+:root {
+	--backgr: #ffffff;
+	--header: #3f0845;
+	
+  --midle: #565656;
+  --normal: #6f6d6d;
+  --light: #f5f5f5;
+
+  --white: #fff;
+  --black: #000;
+
+  /* --red: #8f221e; */
+  --red: #d60b0b;
+}

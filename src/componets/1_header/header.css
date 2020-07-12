@@ -1,0 +1,67 @@
+header {
+	height: 70px;
+	width: 100%;
+	background: var(--header);
+	color: var(--backgr);
+}
+header .container {
+	justify-content: space-between;
+}
+.logo {
+	width: 10%;
+}
+.progrBar {
+	width: 40%;
+}
+.avatar {
+	width: 25%;
+}
+.wrap_progrBar {
+	width: 100%;
+	margin: auto;
+}
+.wrap_volBar {
+	margin-top: 10px;
+}
+.volBar {
+	height: 10px;
+	width: 90%;
+	background: linear-gradient(to right, #44f6fc 0%,#2338bc 43%,#f70bd6 100%);
+}
+.cursName_prst {
+  color: #f70bd6;
+	font-weight: 900;
+	margin-left: 10px;
+}
+.avatar_info {
+	margin-left: 10px;
+}
+.avatar_photo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: url(../../img/avatar.jpg) 100% 100% no-repeat;
+	background-size: cover;
+}
+.avatar_info_name {
+	margin-bottom: 5px;
+}
+.avatar_info_karma {
+	color: #f70bd6;
+	font-weight: 900;
+}
+.avatar_info_karma span, .avatar_info_ex span {
+	color: var(--white);
+	margin-right: 5px;
+}
+.avatar_info_ex {
+	margin-left: 10px;
+	color: #44f6fc;
+	font-weight: 900;
+}
+.wrap_achiev_info {
+	margin-top: 7px;
+}
+.achiev_info {
+	margin-right: 8px;
+}
