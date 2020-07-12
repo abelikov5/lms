@@ -1,13 +1,35 @@
+@import './css/reset.css';
+@import './css/root.css';
+@import './css/icomoon/fonts.style.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
+	background: var(--backgr);
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container {
+	width: 1300px;
+	margin: 0 auto;
+}
+.d_flex {
+	display: flex;
+}
+.d_center {
+	justify-content: center;
+	align-items: center;
+}
+.d_vert {
+	flex-direction: column;
+	justify-content: center;
+}
+.d_none {
+	display: none;
 }
